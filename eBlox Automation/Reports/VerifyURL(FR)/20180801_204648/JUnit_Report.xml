@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VerifyURL(FR)" time="70" tests="9" failures="2" errors="0">
+   <testsuite name="VerifyURL(FR)" tests="9" failures="2" errors="0" time="70" timestamp="2018-08-01 20:46:51" hostname="SEEBORUTS - 5CG7062KWD.SD.DIKA.BE" id="Test Suites/VerifyURL(FR)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_204648"/>
+         <property name="logFiles" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_204648\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_204648\\1533142026929.png, C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_204648\\1533142081491.png"/>
+         <property name="hostName" value="SEEBORUTS - 5CG7062KWD.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.138.240.124"/>
+         <property name="sessionId" value="36f9509c14a38da815bfedb8434d0449"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/eBlox Reporting/TC-Login to Mysdworx" classname="Test Cases/eBlox Reporting/TC-Login to Mysdworx" status="FAILED">
+         <failure type="FAILED" message="Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is maximized
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7062KWD', ip: '10.138.240.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 36f9509c14a38da815bfedb8434d0449)"/>
+         <system-out><![CDATA[2018-08-01 20:46:52 - [TEST_CASE][FAILED] - Test Cases/eBlox Reporting/TC-Login to Mysdworx: Test Cases/eBlox Reporting/TC-Login to Mysdworx FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is maximized
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7062KWD', ip: '10.138.240.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 36f9509c14a38da815bfedb8434d0449)
+
+2018-08-01 20:46:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 20:46:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 20:46:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://internet.acc.sd.dika.be/ebloxreporting/web.sensitive/main/?lang=fr' successfully
+
+2018-08-01 20:47:06 - [MESSAGE][PASSED] - Navigate to 'https://internet.acc.sd.dika.be/ebloxreporting/web.sensitive/main/?lang=fr' successfully
+
+2018-08-01 20:47:06 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is maximized
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7062KWD', ip: '10.138.240.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 36f9509c14a38da815bfedb8434d0449)
+
+2018-08-01 20:47:07 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is maximized
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7062KWD', ip: '10.138.240.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 36f9509c14a38da815bfedb8434d0449)
+[[ATTACHMENT|C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_204648\\1533142026929.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 20:46:52 - [TEST_CASE][FAILED] - Test Cases/eBlox Reporting/TC-Login to Mysdworx: Test Cases/eBlox Reporting/TC-Login to Mysdworx FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is maximized
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7062KWD', ip: '10.138.240.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 36f9509c14a38da815bfedb8434d0449)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function" classname="Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:07 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function: Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function
+
+2018-08-01 20:47:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function" classname="Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:11 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function: Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 20:47:11 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function: Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on
+
+2018-08-01 20:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function" classname="Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:15 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function: Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function
+
+2018-08-01 20:47:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 20:47:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on
+
+2018-08-01 20:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function" classname="Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:16 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function: Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function
+
+2018-08-01 20:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 20:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function" classname="Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:19 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function: Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function
+
+2018-08-01 20:47:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 20:47:19 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function: Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function
+
+2018-08-01 20:47:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 20:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 20:47:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 20:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 20:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on
+
+2018-08-01 20:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function" classname="Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:20 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function: Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function
+
+2018-08-01 20:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 20:47:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on
+
+2018-08-01 20:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon" classname="Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:21 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon: Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon
+
+2018-08-01 20:47:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on
+
+2018-08-01 20:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage" classname="Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:22 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 20:47:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 20:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function" classname="Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 20:47:25 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function: Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function
+
+2018-08-01 20:47:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 20:47:25 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 20:47:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 20:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 20:47:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 20:47:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on
+
+2018-08-01 20:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage" classname="Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' located by 'By.xpath: id(&quot;select2-chosen-4&quot;)[count(. | //span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')]) = count(//span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')])]' not found)"/>
+         <system-out><![CDATA[2018-08-01 20:47:26 - [TEST_CASE][FAILED] - Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage: Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' located by 'By.xpath: id("select2-chosen-4")[count(. | //span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')]) = count(//span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')])]' not found)
+
+2018-08-01 20:47:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 20:47:26 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 20:47:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 20:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 20:47:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 20:47:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function' successfully
+
+2018-08-01 20:47:28 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function: Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function
+
+2018-08-01 20:47:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 20:47:28 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 20:47:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 20:47:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 20:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 20:47:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 20:47:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on
+
+2018-08-01 20:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on
+
+2018-08-01 20:47:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function' successfully
+
+2018-08-01 20:47:28 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_eBlox Reporting (5)/input_comptage_name'
+
+2018-08-01 20:47:30 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_eBlox Reporting (5)/input_comptage_name'
+
+2018-08-01 20:47:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' located by 'By.xpath: id("select2-chosen-4")[count(. | //span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')]) = count(//span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')])]' not found)
+
+2018-08-01 20:48:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' located by 'By.xpath: id("select2-chosen-4")[count(. | //span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')]) = count(//span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')])]' not found)
+[[ATTACHMENT|C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_204648\\1533142081491.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 20:47:26 - [TEST_CASE][FAILED] - Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage: Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (7)/span_Aucune catgorie' located by 'By.xpath: id("select2-chosen-4")[count(. | //span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')]) = count(//span[@class = 'select2-chosen' and @id = 'select2-chosen-4' and (text() = 'Aucune catégorie' or . = 'Aucune catégorie')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 20:46:51 - [TEST_SUITE][FAILED] - VerifyURL(FR): Test Cases/eBlox Reporting/TC-Login to Mysdworx FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is maximized
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7062KWD', ip: '10.138.240.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 36f9509c14a38da815bfedb8434d0449)]]></system-out>
+      <system-err><![CDATA[2018-08-01 20:46:51 - [TEST_SUITE][FAILED] - VerifyURL(FR): Test Cases/eBlox Reporting/TC-Login to Mysdworx FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is maximized
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7062KWD', ip: '10.138.240.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 36f9509c14a38da815bfedb8434d0449)]]></system-err>
+   </testsuite>
+</testsuites>

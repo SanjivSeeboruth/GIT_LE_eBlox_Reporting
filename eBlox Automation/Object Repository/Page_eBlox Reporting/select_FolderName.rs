@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_FolderName</name>
+   <tag></tag>
+   <elementGuidId>572889fc-32b8-407f-a946-5974e03d65ee</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>marked</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sanjiv</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;main-content&quot;]/div[@class=&quot;content&quot;]/ui-view[@class=&quot;ng-scope&quot;]/div[@class=&quot;inner-content my-reports-page ng-scope&quot;]/div[@class=&quot;inner-content-body&quot;]/div[1]/div[@class=&quot;table-fixed-header-wrapper table-responsive&quot;]/div[@class=&quot;my-reports&quot;]/ul[@class=&quot;ng-scope&quot;]/li[@class=&quot;table-group-title ng-scope&quot;]/div[@class=&quot;report-folder&quot;]/span[@class=&quot;collapsible ng-isolate-scope&quot;]/span[@class=&quot;title ng-isolate-scope&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NewReportTestSuite" time="59" tests="1" failures="0" errors="0">
+   <testsuite name="NewReportTestSuite" tests="1" failures="0" errors="0" time="59" timestamp="2018-06-26 16:24:35" hostname="SEEBORUTS - 5CG7062KWD.mshome.net" id="Test Suites/NewReportTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\NewReportTestSuite\\20180626_162432"/>
+         <property name="logFiles" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\NewReportTestSuite\\20180626_162432\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SEEBORUTS - 5CG7062KWD.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.23.231.97"/>
+         <property name="sessionId" value="06afb1e44b3a7c97a57fa7a4d2776149"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/eBlox Reporting/TC - Create a new report" classname="Test Cases/eBlox Reporting/TC - Create a new report" status="PASSED">
+         <system-out><![CDATA[2018-06-26 16:24:36 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC - Create a new report: Test Cases/eBlox Reporting/TC - Create a new report
+
+2018-06-26 16:24:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/eBlox Reporting/TC-Login to Mysdworx' successfully
+
+2018-06-26 16:24:36 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC-Login to Mysdworx: Test Cases/eBlox Reporting/TC-Login to Mysdworx
+
+2018-06-26 16:24:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 16:24:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 16:24:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://login.acc.sdworx.com/portalmysd/be/en' successfully
+
+2018-06-26 16:24:49 - [MESSAGE][PASSED] - Navigate to 'https://login.acc.sdworx.com/portalmysd/be/en' successfully
+
+2018-06-26 16:24:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 16:24:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 16:24:50 - [TEST_STEP][PASSED] - setText: Text 'DP_EBLOX_RPP_VASCO' is set on object 'Object Repository/Page_mysdworx - Log in/input_Username'
+
+2018-06-26 16:24:51 - [MESSAGE][PASSED] - Text 'DP_EBLOX_RPP_VASCO' is set on object 'Object Repository/Page_mysdworx - Log in/input_Username'
+
+2018-06-26 16:24:51 - [TEST_STEP][PASSED] - setText: Text '389326' is set on object 'Object Repository/Page_mysdworx - Log in/input_Password'
+
+2018-06-26 16:24:51 - [MESSAGE][PASSED] - Text '389326' is set on object 'Object Repository/Page_mysdworx - Log in/input_Password'
+
+2018-06-26 16:24:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_mysdworx - Log in/button_Log in' is clicked on
+
+2018-06-26 16:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_mysdworx - Log in/button_Log in' is clicked on
+
+2018-06-26 16:24:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-26 16:24:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:24:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/eBlox Reporting/TC-Login to Mysdworx' successfully
+
+2018-06-26 16:24:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/eBlox Reporting/TC-Click on the reporting link' successfully
+
+2018-06-26 16:24:51 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC-Click on the reporting link: Test Cases/eBlox Reporting/TC-Click on the reporting link
+
+2018-06-26 16:24:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/a_eBlox Rapportage' is clicked on
+
+2018-06-26 16:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/a_eBlox Rapportage' is clicked on
+
+2018-06-26 16:25:22 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'eBlox Reporting'
+
+2018-06-26 16:25:22 - [MESSAGE][PASSED] - Switched to window with title: 'eBlox Reporting'
+
+2018-06-26 16:25:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-26 16:25:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:25:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/eBlox Reporting/TC-Click on the reporting link' successfully
+
+2018-06-26 16:25:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/eBlox Reporting/TC- Click on Button Nouveau rapport' successfully
+
+2018-06-26 16:25:22 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC- Click on Button Nouveau rapport: Test Cases/eBlox Reporting/TC- Click on Button Nouveau rapport
+
+2018-06-26 16:25:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/button_Nouveau rapport' is clicked on
+
+2018-06-26 16:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/button_Nouveau rapport' is clicked on
+
+2018-06-26 16:25:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/eBlox Reporting/TC- Click on Button Nouveau rapport' successfully
+
+2018-06-26 16:25:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/eBlox Reporting/TC1 - Base de rapport' successfully
+
+2018-06-26 16:25:24 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC1 - Base de rapport: Test Cases/eBlox Reporting/TC1 - Base de rapport
+
+2018-06-26 16:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/button_Next_Arrow' is clicked on
+
+2018-06-26 16:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/button_Next_Arrow' is clicked on
+
+2018-06-26 16:25:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-26 16:25:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:25:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/eBlox Reporting/TC1 - Base de rapport' successfully
+
+2018-06-26 16:25:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/eBlox Reporting/TC2 - Contenu' successfully
+
+2018-06-26 16:25:25 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC2 - Contenu: Test Cases/eBlox Reporting/TC2 - Contenu
+
+2018-06-26 16:25:25 - [TEST_STEP][PASSED] - setText: Text 'Travailleur' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:27 - [MESSAGE][PASSED] - Text 'Travailleur' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/select_Nom travailleur' is clicked on
+
+2018-06-26 16:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/select_Nom travailleur' is clicked on
+
+2018-06-26 16:25:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:28 - [TEST_STEP][PASSED] - setText: Text 'Departement' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:28 - [MESSAGE][PASSED] - Text 'Departement' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/select_Departement' is clicked on
+
+2018-06-26 16:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/select_Departement' is clicked on
+
+2018-06-26 16:25:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:29 - [TEST_STEP][PASSED] - setText: Text 'Date d'entree' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:29 - [MESSAGE][PASSED] - Text 'Date d'entree' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/select_Date dentre' is clicked on
+
+2018-06-26 16:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/select_Date dentre' is clicked on
+
+2018-06-26 16:25:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:30 - [TEST_STEP][PASSED] - setText: Text 'sexe' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:30 - [MESSAGE][PASSED] - Text 'sexe' is set on object 'Object Repository/Page_eBlox Reporting/input_Text'
+
+2018-06-26 16:25:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/select_Sexe' is clicked on
+
+2018-06-26 16:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/select_Sexe' is clicked on
+
+2018-06-26 16:25:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/i_fa fa-times' is clicked on
+
+2018-06-26 16:25:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/button_Next_Arrow_Selection' is clicked on
+
+2018-06-26 16:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/button_Next_Arrow_Selection' is clicked on
+
+2018-06-26 16:25:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/eBlox Reporting/TC2 - Contenu' successfully
+
+2018-06-26 16:25:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/eBlox Reporting/TC3 - Selection' successfully
+
+2018-06-26 16:25:31 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC3 - Selection: Test Cases/eBlox Reporting/TC3 - Selection
+
+2018-06-26 16:25:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-26 16:25:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:25:31 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/Page_eBlox Reporting/checkbox_Contrats' is un-checked
+
+2018-06-26 16:25:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_eBlox Reporting/checkbox_Contrats' is un-checked
+
+2018-06-26 16:25:33 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/Page_eBlox Reporting/checkbox_Dossier' is un-checked
+
+2018-06-26 16:25:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_eBlox Reporting/checkbox_Dossier' is un-checked
+
+2018-06-26 16:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/button_Next_Arrow_Selection' is clicked on
+
+2018-06-26 16:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/button_Next_Arrow_Selection' is clicked on
+
+2018-06-26 16:25:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/eBlox Reporting/TC3 - Selection' successfully
+
+2018-06-26 16:25:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/eBlox Reporting/TC4 - Execution' successfully
+
+2018-06-26 16:25:33 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC4 - Execution: Test Cases/eBlox Reporting/TC4 - Execution
+
+2018-06-26 16:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting/button_Excuter' is clicked on
+
+2018-06-26 16:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting/button_Excuter' is clicked on
+
+2018-06-26 16:25:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/eBlox Reporting/TC4 - Execution' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 16:24:35 - [TEST_SUITE][PASSED] - NewReportTestSuite: Test Cases/eBlox Reporting/TC - Create a new report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

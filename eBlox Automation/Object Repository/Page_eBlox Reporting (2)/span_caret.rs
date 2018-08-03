@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_caret</name>
+   <tag></tag>
+   <elementGuidId>2b4a827e-0f52-4c1e-b4be-0a145c5617e0</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caret</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;main-content&quot;]/div[@class=&quot;content&quot;]/ui-view[@class=&quot;ng-scope&quot;]/div[@class=&quot;inner-content my-reports-page ng-scope&quot;]/div[@class=&quot;inner-content-header&quot;]/nav[@class=&quot;navbar navbar-default&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-md-7&quot;]/form[@class=&quot;navbar-form ng-pristine ng-valid ng-valid-maxlength&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-default dropdown-toggle&quot;]/span[@class=&quot;caret&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

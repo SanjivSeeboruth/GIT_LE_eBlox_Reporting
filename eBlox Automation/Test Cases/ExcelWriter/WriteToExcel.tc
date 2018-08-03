@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WriteToExcel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5427c501-7874-478f-b713-8a65609306d9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d77bf9cc-6680-45ea-8202-58c9f1195289</id>
+      <masked>false</masked>
+      <name>ui_variable</name>
+   </variable>
+</TestCaseEntity>

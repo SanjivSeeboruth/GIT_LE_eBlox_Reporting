@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VerifyURL(FR)" time="86" tests="10" failures="1" errors="0">
+   <testsuite name="VerifyURL(FR)" tests="10" failures="1" errors="0" time="86" timestamp="2018-08-01 18:07:38" hostname="SEEBORUTS - 5CG7062KWD.SD.DIKA.BE" id="Test Suites/VerifyURL(FR)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_180735"/>
+         <property name="logFiles" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_180735\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_180735\\1533132543931.png"/>
+         <property name="hostName" value="SEEBORUTS - 5CG7062KWD.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.136.82.139"/>
+         <property name="sessionId" value="b74337cf1bf062690d1db11f2f8cc1ff"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/eBlox Reporting/TC-Login to Mysdworx" classname="Test Cases/eBlox Reporting/TC-Login to Mysdworx" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:07:39 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC-Login to Mysdworx: Test Cases/eBlox Reporting/TC-Login to Mysdworx
+
+2018-08-01 18:07:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 18:07:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 18:07:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://internet.acc.sd.dika.be/ebloxreporting/web.sensitive/main/?lang=fr' successfully
+
+2018-08-01 18:07:48 - [MESSAGE][PASSED] - Navigate to 'https://internet.acc.sd.dika.be/ebloxreporting/web.sensitive/main/?lang=fr' successfully
+
+2018-08-01 18:07:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-01 18:07:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-01 18:07:49 - [TEST_STEP][PASSED] - setText: Text 'DP_EBLOX_RPP_VASCO' is set on object 'Object Repository/Page_mysdworx - Log in/input_Username'
+
+2018-08-01 18:07:53 - [MESSAGE][PASSED] - Text 'DP_EBLOX_RPP_VASCO' is set on object 'Object Repository/Page_mysdworx - Log in/input_Username'
+
+2018-08-01 18:07:53 - [TEST_STEP][PASSED] - setText: Text '028863' is set on object 'Object Repository/Page_mysdworx - Log in/input_Password'
+
+2018-08-01 18:07:53 - [MESSAGE][PASSED] - Text '028863' is set on object 'Object Repository/Page_mysdworx - Log in/input_Password'
+
+2018-08-01 18:07:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_mysdworx - Se connecter/button_Se connecter' is clicked on
+
+2018-08-01 18:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_mysdworx - Se connecter/button_Se connecter' is clicked on
+
+2018-08-01 18:07:53 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 18:07:53 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function" classname="Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:07:53 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function: Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function
+
+2018-08-01 18:07:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 18:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function" classname="Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:19 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function: Test Cases/Menu-Mes rapports (FR)/TC2 Verify Masquer function
+
+2018-08-01 18:08:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 18:08:19 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function: Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function
+
+2018-08-01 18:08:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 18:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 18:08:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu-Mes rapports (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 18:08:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on
+
+2018-08-01 18:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function" classname="Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:23 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function: Test Cases/Menu-Mes rapports (FR)/TC3 Verify info icon function
+
+2018-08-01 18:08:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 18:08:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on
+
+2018-08-01 18:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function" classname="Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:24 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function: Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function
+
+2018-08-01 18:08:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 18:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function" classname="Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:26 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function: Test Cases/Menu- Bibliotheque (FR)/TC2 Verify Masquer function
+
+2018-08-01 18:08:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 18:08:26 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function: Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function
+
+2018-08-01 18:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 18:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Masquer tout' is clicked on
+
+2018-08-01 18:08:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Bibliotheque (FR)/TC1 Verify Deployer function' successfully
+
+2018-08-01 18:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 18:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on
+
+2018-08-01 18:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function" classname="Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:27 - [TEST_CASE][PASSED] - Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function: Test Cases/Menu- Bibliotheque (FR)/TC3 Verify info icon function
+
+2018-08-01 18:08:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Bibliothque_tab' is clicked on
+
+2018-08-01 18:08:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on
+
+2018-08-01 18:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon" classname="Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:27 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon: Test Cases/Menu- Comptages (FR)/TC1 Verify Info icon
+
+2018-08-01 18:08:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on
+
+2018-08-01 18:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/info_Icon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage" classname="Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:28 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 18:08:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 18:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function" classname="Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 18:08:30 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function: Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function
+
+2018-08-01 18:08:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 18:08:30 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 18:08:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 18:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 18:08:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 18:08:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on
+
+2018-08-01 18:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage" classname="Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' located by 'By.xpath: id(&quot;select2-drop-mask&quot;)[count(. | //div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask']) = count(//div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask'])]' not found)"/>
+         <system-out><![CDATA[2018-08-01 18:08:30 - [TEST_CASE][FAILED] - Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage: Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' located by 'By.xpath: id("select2-drop-mask")[count(. | //div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask']) = count(//div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask'])]' not found)
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 18:08:31 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 18:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 18:08:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function' successfully
+
+2018-08-01 18:08:31 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function: Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 18:08:31 - [TEST_CASE][PASSED] - Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage: Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/Comptages_tab' is clicked on
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 18:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/button_Nouveau comptage' is clicked on
+
+2018-08-01 18:08:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC2 Verify the funtion Nouveau comptage' successfully
+
+2018-08-01 18:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on
+
+2018-08-01 18:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (3)/a_Montants' is clicked on
+
+2018-08-01 18:08:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu- Comptages (FR)/TC3 Verify Montants Function' successfully
+
+2018-08-01 18:08:32 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_eBlox Reporting (5)/input_comptage_name'
+
+2018-08-01 18:08:32 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_eBlox Reporting (5)/input_comptage_name'
+
+2018-08-01 18:08:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' located by 'By.xpath: id("select2-drop-mask")[count(. | //div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask']) = count(//div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask'])]' not found)
+
+2018-08-01 18:09:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' located by 'By.xpath: id("select2-drop-mask")[count(. | //div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask']) = count(//div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask'])]' not found)
+[[ATTACHMENT|C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_180735\\1533132543931.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 18:08:30 - [TEST_CASE][FAILED] - Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage: Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' located by 'By.xpath: id("select2-drop-mask")[count(. | //div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask']) = count(//div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 18:07:38 - [TEST_SUITE][FAILED] - VerifyURL(FR): Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' located by 'By.xpath: id("select2-drop-mask")[count(. | //div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask']) = count(//div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-01 18:07:38 - [TEST_SUITE][FAILED] - VerifyURL(FR): Test Cases/Menu- Comptages (FR)/TC4 Verify the creation of a new Comptage FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (6)/div_select2-drop-mask' located by 'By.xpath: id("select2-drop-mask")[count(. | //div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask']) = count(//div[@id = 'select2-drop-mask' and @class = 'select2-drop-mask'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

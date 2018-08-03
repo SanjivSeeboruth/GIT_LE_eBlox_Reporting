@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VerifyURL(FR)" time="75" tests="2" failures="1" errors="0">
+   <testsuite name="VerifyURL(FR)" tests="2" failures="1" errors="0" time="75" timestamp="2018-08-01 22:35:47" hostname="SEEBORUTS - 5CG7062KWD.SD.DIKA.BE" id="Test Suites/VerifyURL(FR)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_223544"/>
+         <property name="logFiles" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_223544\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_223544\\1533148606359.png"/>
+         <property name="hostName" value="SEEBORUTS - 5CG7062KWD.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.138.240.124"/>
+         <property name="sessionId" value="685ea8a54e776cb82a6ead9efa8273a3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/eBlox Reporting/TC-Login to Mysdworx" classname="Test Cases/eBlox Reporting/TC-Login to Mysdworx" status="PASSED">
+         <system-out><![CDATA[2018-08-01 22:35:47 - [TEST_CASE][PASSED] - Test Cases/eBlox Reporting/TC-Login to Mysdworx: Test Cases/eBlox Reporting/TC-Login to Mysdworx
+
+2018-08-01 22:35:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 22:35:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 22:35:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://internet.acc.sd.dika.be/ebloxreporting/web.sensitive/main/?lang=fr' successfully
+
+2018-08-01 22:35:59 - [MESSAGE][PASSED] - Navigate to 'https://internet.acc.sd.dika.be/ebloxreporting/web.sensitive/main/?lang=fr' successfully
+
+2018-08-01 22:35:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-01 22:36:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-01 22:36:01 - [TEST_STEP][PASSED] - setText: Text 'DP_EBLOX_RPP_VASCO' is set on object 'Object Repository/Page_mysdworx - Log in/input_Username'
+
+2018-08-01 22:36:14 - [MESSAGE][PASSED] - Text 'DP_EBLOX_RPP_VASCO' is set on object 'Object Repository/Page_mysdworx - Log in/input_Username'
+
+2018-08-01 22:36:14 - [TEST_STEP][PASSED] - setText: Text '500354' is set on object 'Object Repository/Page_mysdworx - Log in/input_Password'
+
+2018-08-01 22:36:14 - [MESSAGE][PASSED] - Text '500354' is set on object 'Object Repository/Page_mysdworx - Log in/input_Password'
+
+2018-08-01 22:36:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_mysdworx - Se connecter/button_Se connecter' is clicked on
+
+2018-08-01 22:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_mysdworx - Se connecter/button_Se connecter' is clicked on
+
+2018-08-01 22:36:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 22:36:14 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select Language/TC1 Verify NL language" classname="Test Cases/Select Language/TC1 Verify NL language" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_eBlox Reporting (9)/NL_language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (9)/NL_language' located by 'By.xpath: id(&quot;navbar-anchor&quot;)/div[@class=&quot;nav nav-navbar&quot;]/div[@class=&quot;user-info navbar-right hidden-xs&quot;]/div[@class=&quot;user-actions&quot;]/rapp-language-switcher[@class=&quot;ng-isolate-scope&quot;]/ul[@class=&quot;list-inline list-unstyled lang&quot;]/li[@class=&quot;ng-scope&quot;]/a[@class=&quot;ng-binding&quot;][count(. | //a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')]) = count(//a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')])]' not found)"/>
+         <system-out><![CDATA[2018-08-01 22:36:14 - [TEST_CASE][FAILED] - Test Cases/Select Language/TC1 Verify NL language: Test Cases/Select Language/TC1 Verify NL language FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (9)/NL_language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (9)/NL_language' located by 'By.xpath: id("navbar-anchor")/div[@class="nav nav-navbar"]/div[@class="user-info navbar-right hidden-xs"]/div[@class="user-actions"]/rapp-language-switcher[@class="ng-isolate-scope"]/ul[@class="list-inline list-unstyled lang"]/li[@class="ng-scope"]/a[@class="ng-binding"][count(. | //a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')]) = count(//a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')])]' not found)
+
+2018-08-01 22:36:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_eBlox Reporting (9)/NL_language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (9)/NL_language' located by 'By.xpath: id("navbar-anchor")/div[@class="nav nav-navbar"]/div[@class="user-info navbar-right hidden-xs"]/div[@class="user-actions"]/rapp-language-switcher[@class="ng-isolate-scope"]/ul[@class="list-inline list-unstyled lang"]/li[@class="ng-scope"]/a[@class="ng-binding"][count(. | //a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')]) = count(//a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')])]' not found)
+
+2018-08-01 22:36:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_eBlox Reporting (9)/NL_language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (9)/NL_language' located by 'By.xpath: id("navbar-anchor")/div[@class="nav nav-navbar"]/div[@class="user-info navbar-right hidden-xs"]/div[@class="user-actions"]/rapp-language-switcher[@class="ng-isolate-scope"]/ul[@class="list-inline list-unstyled lang"]/li[@class="ng-scope"]/a[@class="ng-binding"][count(. | //a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')]) = count(//a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')])]' not found)
+[[ATTACHMENT|C:\\Users\\seeboruts\\OneDrive - SD Worx\\Desktop\\eBlox Automation\\Reports\\VerifyURL(FR)\\20180801_223544\\1533148606359.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 22:36:14 - [TEST_CASE][FAILED] - Test Cases/Select Language/TC1 Verify NL language: Test Cases/Select Language/TC1 Verify NL language FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (9)/NL_language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (9)/NL_language' located by 'By.xpath: id("navbar-anchor")/div[@class="nav nav-navbar"]/div[@class="user-info navbar-right hidden-xs"]/div[@class="user-actions"]/rapp-language-switcher[@class="ng-isolate-scope"]/ul[@class="list-inline list-unstyled lang"]/li[@class="ng-scope"]/a[@class="ng-binding"][count(. | //a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')]) = count(//a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Menu-Mes rapports (NL)/TC1 Verify Deployer function" classname="Test Cases/Menu-Mes rapports (NL)/TC1 Verify Deployer function" status="PASSED">
+         <system-out><![CDATA[2018-08-01 22:36:46 - [TEST_CASE][PASSED] - Test Cases/Menu-Mes rapports (NL)/TC1 Verify Deployer function: Test Cases/Menu-Mes rapports (NL)/TC1 Verify Deployer function
+
+2018-08-01 22:36:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 22:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (4)/Mes rapports_tab' is clicked on
+
+2018-08-01 22:36:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 22:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/button_setting_dropdown' is clicked on
+
+2018-08-01 22:36:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on
+
+2018-08-01 22:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBlox Reporting (1)/a_Dployer tout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 22:35:47 - [TEST_SUITE][FAILED] - VerifyURL(FR): Test Cases/Select Language/TC1 Verify NL language FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (9)/NL_language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (9)/NL_language' located by 'By.xpath: id("navbar-anchor")/div[@class="nav nav-navbar"]/div[@class="user-info navbar-right hidden-xs"]/div[@class="user-actions"]/rapp-language-switcher[@class="ng-isolate-scope"]/ul[@class="list-inline list-unstyled lang"]/li[@class="ng-scope"]/a[@class="ng-binding"][count(. | //a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')]) = count(//a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-01 22:35:47 - [TEST_SUITE][FAILED] - VerifyURL(FR): Test Cases/Select Language/TC1 Verify NL language FAILED because (of) Unable to click on object 'Object Repository/Page_eBlox Reporting (9)/NL_language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_eBlox Reporting (9)/NL_language' located by 'By.xpath: id("navbar-anchor")/div[@class="nav nav-navbar"]/div[@class="user-info navbar-right hidden-xs"]/div[@class="user-actions"]/rapp-language-switcher[@class="ng-isolate-scope"]/ul[@class="list-inline list-unstyled lang"]/li[@class="ng-scope"]/a[@class="ng-binding"][count(. | //a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')]) = count(//a[(text() = '
+            NL   
+        ' or . = '
+            NL   
+        ')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

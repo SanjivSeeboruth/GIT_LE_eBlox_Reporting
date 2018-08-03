@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+NewReportTestSuite,Chrome 67.0.3396.99,,2018-06-26 16:24:35,2018-06-26 16:25:35,59.624s,PASSED
+,,,,,,
+Test Cases/eBlox Reporting/TC - Create a new report,Chrome 67.0.3396.99,,2018-06-26 16:24:36,2018-06-26 16:25:34,58.516s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-06-26 16:24:36,2018-06-26 16:24:51,14.908s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-06-26 16:24:51,2018-06-26 16:25:22,30.936s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-06-26 16:25:22,2018-06-26 16:25:24,1.948s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-06-26 16:25:24,2018-06-26 16:25:25,0.889s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-06-26 16:25:25,2018-06-26 16:25:31,6.412s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-06-26 16:25:31,2018-06-26 16:25:33,2.150s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-06-26 16:25:33,2018-06-26 16:25:34,0.863s,PASSED

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Next_Arrow_Execution</name>
+   <tag></tag>
+   <elementGuidId>b71ef47f-345f-463a-a246-5077e9f13714</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;wizard-page&quot;]/div[1]/div[4]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;wizard-page&quot;]/div[1]/div[4]/button[count(. | //button[@class = 'btn btn-link ng-scope' and @ng-disabled = 'isProcessing' and @rapp-wizard-navigation-disabled-is-processing = 'isProcessing' and @ng-click = 'navvm.gaNaarVolgendeStap()']) = count(//button[@class = 'btn btn-link ng-scope' and @ng-disabled = 'isProcessing' and @rapp-wizard-navigation-disabled-is-processing = 'isProcessing' and @ng-click = 'navvm.gaNaarVolgendeStap()'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-link ng-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>isProcessing</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rapp-wizard-navigation-disabled-is-processing</name>
+      <type>Main</type>
+      <value>isProcessing</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>navvm.gaNaarVolgendeStap()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;wizard-page&quot;]/div[1]/div[4]/button</value>
+   </webElementProperties>
+</WebElementEntity>
